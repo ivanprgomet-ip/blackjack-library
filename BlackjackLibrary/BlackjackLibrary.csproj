@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>IvanPrgomet.BlackjackLibrary</PackageId>
+    <Authors>Ivan Prgomet</Authors>
+    <Product>Ivan Prgomet Blackjack Library</Product>
+    <Copyright>2019</Copyright>
+    <Description>A blackjack library containing methods and functionality for quickly creating your own blackjack game in various .net application models such as windows forms, wpf, console etc. The library currently supports 1v1 with blackjack rules for hitting, standing, doubling and betting.</Description>
+    <PackageLicenseExpression></PackageLicenseExpression>
+    <PackageProjectUrl></PackageProjectUrl>
+    <PackageTags>ivan prgomet blackjack library csharp .net standard</PackageTags>
+    <PackageReleaseNotes>Initial release supporting hitting, standing doubling and betting.</PackageReleaseNotes>
+    <Version>1.0.2</Version>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Enums\SplitDecision.cs" />
+    <Compile Remove="Enums\SplitDeck.cs" />
+    <Compile Remove="Enums\SplitStatus.cs" />
+    <Compile Remove="EventArgs\HiddenCardRevealedEventArgs.cs" />
+    <Compile Remove="Internal\Strategies\PostAction\OnSplitBankingStrategy.cs" />
+    <Compile Remove="Internal\Strategies\PostAction\OnSplitDoubleDownLeftBankingStrategy.cs" />
+    <Compile Remove="Internal\Strategies\PostAction\OnSplitDoubleDownRightBankingStrategy.cs" />
+  </ItemGroup>
+
+</Project>
