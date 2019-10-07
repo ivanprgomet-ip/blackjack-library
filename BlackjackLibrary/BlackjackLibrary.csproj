@@ -8,10 +8,10 @@
     <Copyright>2019</Copyright>
     <Description>A blackjack library containing methods and functionality for quickly creating your own blackjack game in various .net application models such as windows forms, wpf, console etc. The library currently supports 1v1 with blackjack rules for hitting, standing, doubling and betting.</Description>
     <PackageLicenseExpression></PackageLicenseExpression>
-    <PackageProjectUrl></PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/ivanprgomet-ip/blackjack-library</PackageProjectUrl>
     <PackageTags>ivan prgomet blackjack library csharp .net standard</PackageTags>
-    <PackageReleaseNotes>Initial release supporting hitting, standing doubling and betting.</PackageReleaseNotes>
-    <Version>1.0.2</Version>
+    <PackageReleaseNotes>Added project URL info.</PackageReleaseNotes>
+    <Version>1.0.3</Version>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
